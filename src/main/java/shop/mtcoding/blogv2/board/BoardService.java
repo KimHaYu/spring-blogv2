@@ -18,5 +18,6 @@ public class BoardService {
                 .user(User.builder().id(sessionUserId).build())
                 .build();
         boardRepository.save(board);
+
     }
 }
