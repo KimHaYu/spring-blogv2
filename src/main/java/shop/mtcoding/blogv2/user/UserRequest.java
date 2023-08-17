@@ -24,6 +24,7 @@ public class UserRequest {
     @Setter
     public static class UpdateDTO {
         private String password;
+
     }
 
 }
